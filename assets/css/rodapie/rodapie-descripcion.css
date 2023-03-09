@@ -1,6 +1,11 @@
 .rodapie__descipcion {
     display: flex;
     font-size: 2rem;
-    margin-left: 5rem;
     color: #8c8888;
+}
+
+@media screen and (min-width: 768px){
+    .rodapie__descipcion {
+        margin-left: 5rem;
+    }
 }
